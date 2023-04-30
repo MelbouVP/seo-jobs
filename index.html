@@ -10,6 +10,7 @@
       "@type": "JobPosting",
       "title": "Job Title 1",
       "description": "We are looking for an experienced software engineer to join our team. The ideal candidate will have at least 5 years of experience in software development and be proficient in Java, Python, and C++. A Bachelor's degree in Computer Science or a related field is required.",
+      "datePosted" : "2023-04-18",
       "hiringOrganization": {
         "@type": "Organization",
         "name": "XYZ Corp"
@@ -26,12 +27,22 @@
       },
       "employmentType": "FULL_TIME",
       "validThrough": "2023-05-30T23:59:59Z"
+      "baseSalary": {
+		"@type": "MonetaryAmount",
+		"currency": "USD",
+		"value": {
+		  "@type": "QuantitativeValue",
+		  "value": 56000,
+		  "unitText": "YEAR"
+		}	
+	  }
     },
     {
       "@context": "https://schema.org/",
       "@type": "JobPosting",
       "title": "Job Title 2",
       "description": "We are seeking a software engineer with 2-3 years of experience in web development using HTML, CSS, and JavaScript. Knowledge of React and Node.js is a plus. This is a 6-month contract position.",
+      "datePosted" : "2023-04-20",
       "hiringOrganization": {
         "@type": "Organization",
         "name": "ABC Inc"
@@ -40,6 +51,7 @@
         "@type": "Place",
         "address": {
           "@type": "PostalAddress",
+	  "addressCountry": "USA",
           "addressLocality": "San Francisco",
           "addressRegion": "CA",
           "postalCode": "94107",
@@ -48,11 +60,21 @@
       },
       "employmentType": "CONTRACTOR",
       "validThrough": "2023-06-30T23:59:59Z"
+      "baseSalary": {
+		"@type": "MonetaryAmount",
+		"currency": "USD",
+		"value": {
+		  "@type": "QuantitativeValue",
+		  "value": 29.00,
+		  "unitText": "HOUR"
+		}	
+	  }
     },
     {
       "@context": "https://schema.org/",
       "@type": "JobPosting",
       "title": "Job Title 3",
+      "datePosted" : "2023-04-25",
       "description": "We are looking for a software engineer to work on our cloud computing platform. The ideal candidate will have experience with AWS, Docker, and Kubernetes. A Bachelor's or Master's degree in Computer Science is required.",
       "hiringOrganization": {
         "@type": "Organization",
@@ -62,6 +84,7 @@
         "@type": "Place",
         "address": {
           "@type": "PostalAddress",
+	  "addressCountry": "USA",
           "addressLocality": "Seattle",
           "addressRegion": "WA",
           "postalCode": "98101",
@@ -70,12 +93,22 @@
       },
       "employmentType": "FULL_TIME",
       "validThrough": "2023-07-31T23:59:59Z"
+      "baseSalary": {
+		"@type": "MonetaryAmount",
+		"currency": "USD",
+		"value": {
+		  "@type": "QuantitativeValue",
+		  "value": 99000,
+		  "unitText": "YEAR"
+		}	
+	  }
     },
 		{
 	  "@context": "https://schema.org/",
 	  "@type": "JobPosting",
 	  "title": "Job Title 4",
 	  "description": "We are seeking a highly motivated software engineer to join our team. The ideal candidate should have 3+ years of experience with software development and be proficient in Java, Python, and Ruby. Knowledge of AngularJS and Spring is a plus.",
+	  "datePosted" : "2023-04-26",
 	  "employmentType": "Full-time",
 	  "hiringOrganization": {
 	    "@type": "Organization",
@@ -91,64 +124,83 @@
 	  },
 	  "qualifications": "3+ years of experience with software development, proficiency in Java, Python, and Ruby, knowledge of AngularJS and Spring is a plus",
 	  "url": "#"
+	  "baseSalary": {
+		"@type": "MonetaryAmount",
+		"currency": "USD",
+		"value": {
+		  "@type": "QuantitativeValue",
+		  "value": 129000,
+		  "unitText": "YEAR"
+		}	
+	  }
 	},
 	{
-  "@context": "https://schema.org/",
-  "@type": "JobPosting",
-  "title": "Job Title 5",
-  "description": "We are looking for a software engineer with experience in mobile application development. The ideal candidate should be proficient in Java and have experience with Android and iOS platforms. A Bachelor's or Master's degree in Computer Science is required.",
-  "employmentType": "Full-time",
-  "hiringOrganization": {
-    "@type": "Organization",
-    "name": "UVW Innovations"
-  },
-  "jobLocation": {
-    "@type": "Place",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Toronto",
-      "addressRegion": "ON",
-      "addressCountry": "Canada"
-    }
-  },
-  "qualifications": "Proficiency in Java, experience with Android and iOS platforms, Bachelor's or Master's degree in Computer Science",
-  "url": "#"
-}
+	  "@context": "https://schema.org/",
+	  "@type": "JobPosting",
+	  "title": "Job Title 5",
+	  "description": "We are looking for a software engineer with experience in mobile application development. The ideal candidate should be proficient in Java and have experience with Android and iOS platforms. A Bachelor's or Master's degree in Computer Science is required.",
+	  "datePosted" : "2023-04-30",
+	  "employmentType": "Full-time",
+	  "hiringOrganization": {
+	    "@type": "Organization",
+	    "name": "UVW Innovations"
+	  },
+	  "jobLocation": {
+	    "@type": "Place",
+	    "address": {
+	      "@type": "PostalAddress",
+	      "addressLocality": "Toronto",
+	      "addressRegion": "ON",
+	      "addressCountry": "Canada"
+	    }
+	  },
+	  "qualifications": "Proficiency in Java, experience with Android and iOS platforms, Bachelor's or Master's degree in Computer Science",
+	  "url": "#"
+	  "baseSalary": {
+		"@type": "MonetaryAmount",
+		"currency": "USD",
+		"value": {
+		  "@type": "QuantitativeValue",
+		  "value": 40.00,
+		  "unitText": "HOUR"
+		}	
+	  }
+	}
   </script>
   <style>
-    body {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-  padding: 20px;
-}
+	body {
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  grid-gap: 20px;
+	  padding: 20px;
+	}
 
-h1 {
-  margin-bottom: 20px;
-}
+	h1 {
+	  margin-bottom: 20px;
+	}
 
-.job-posting {
-  border: 1px solid #ccc;
-  padding: 20px;
-}
+	.job-posting {
+	  border: 1px solid #ccc;
+	  padding: 20px;
+	}
 
-.job-posting h2 {
-  margin-top: 0;
-}
+	.job-posting h2 {
+	  margin-top: 0;
+	}
 
-.job-posting a {
-  display: inline-block;
-  padding: 8px 12px;
-  background-color: #0077ff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  margin-top: 16px;
-}
+	.job-posting a {
+	  display: inline-block;
+	  padding: 8px 12px;
+	  background-color: #0077ff;
+	  color: #fff;
+	  text-decoration: none;
+	  border-radius: 4px;
+	  margin-top: 16px;
+	}
 
-.job-posting a:hover {
-  background-color: #005ae6;
-}
+	.job-posting a:hover {
+	  background-color: #005ae6;
+	}
   </style>
 </head>
 
